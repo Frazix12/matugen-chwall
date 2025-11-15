@@ -6,9 +6,11 @@ A fast wallpaper changer for [matugen](https://github.com/InioX/matugen) built w
 <summary>Preview Images</summary>
 
 ### Main Interface
+
 ![Main Interface](docs/main.png)
 
 ### Settings Dialog
+
 ![Settings Dialog](docs/settings.png)
 
 </details>
@@ -31,15 +33,24 @@ A fast wallpaper changer for [matugen](https://github.com/InioX/matugen) built w
 ## Quick Start
 
 ```bash
-# Run the application
-quickshell -c shell.qml
+git clone https://github.com/Frazix12/matugen-chwall
+```
+
+```bash
+cd matugen-chwall
+```
+
+```bash
+quickshell -p .
 ```
 
 **Default directories:**
+
 - Wallpapers: `~/Pictures/wall`
 - Thumbnails: `~/.cache/chwall_thumbnails`
 
 **Controls:**
+
 - Click wallpaper to apply
 - Random/Rescan/Settings buttons
 - ESC to close
